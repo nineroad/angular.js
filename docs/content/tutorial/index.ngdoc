@@ -96,6 +96,10 @@ to run <code>scripts/web-server.js</code>,  a simple bundled http server.</p></l
       href="https://github.com/angular/angular-phonecat">Github</a> by running the following command:</p>
       <pre>git clone git://github.com/angular/angular-phonecat.git</pre>
       <p>This command creates the <code>angular-phonecat</code> directory in your current directory.</p></li>
+      <li><p>If there is a proxy server, use the following commands.</p>
+      <pre>git config --global http.proxy http://username:password@hostname:port</pre>
+      <pre>git clone http://github.com/angular/angular-phonecat.git</pre>
+      </li>
       <li><p>Change your current directory to <code>angular-phonecat</code>:</p>
       <pre>cd angular-phonecat</pre>
       <p>The tutorial instructions assume you are running all commands from the <code>angular-phonecat</code>
